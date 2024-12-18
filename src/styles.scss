@@ -1,0 +1,20 @@
+@use "./styles/overrides";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// TODO: Fix fonts
+@font-face {
+  font-family: GilroySemibold !important;
+  src: url("../public/fonts/gilroy-semibold.ttf");
+}
+
+html,
+body {
+  height: 100%;
+  font-family: GilroySemibold !important;
+}
+body {
+  margin: 0;
+}
